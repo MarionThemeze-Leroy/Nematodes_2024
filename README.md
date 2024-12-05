@@ -31,7 +31,7 @@ Calcul du nombre d'assignation ayant été effectué pour chaque base de donnée
 - Le nombre d'assignation ayant été fait à minima jusqu'au genre 
 - Le nombre d'assignation ayant été fait jusqu'à l'espèce 
 
-Resultat sous forme de tableau 
+Resultat sous forme de tableau et de graphiques. 
 
 2) Assignation de l'espece la plus abondante et du genre le plus abondant
 
