@@ -35,7 +35,7 @@ Resultat sous forme de tableau et de graphiques.
 
 2) Assignation de l'espece la plus abondante et du genre le plus abondant
 
-Verification de l'identité de l'espèce correspondant à l'ASV la plus frequente pour chaque température en fonction des 3 bases de reference.
+Vérification de l'identité de l'espèce correspondant à l'ASV la plus frequente pour chaque température en fonction des 3 bases de reference.
 
 METTRE TABLEAU RESULTAT 
 
@@ -45,13 +45,16 @@ Pour les genre, on obtient les meme genre pour toutes les base de données et to
 
 3) Diagramme de Venn 
 
-pb suffixes
+Evaluation de la consistence des assignations faites au niveau du genre selon les différentes bases de données pour chacune des températures.
+Les genres attribué a chaque ASV par chacune des bases de données sont comparé pour mesurer les accords et désaccord des attributions taxonomiques. Le résultat de ces comparaisons est représenté sous la forme d'un diagramme de Venn pour chacune des températures. Cette analyse repose sur le fait que les attrbutions taxonomiques utilise la même typologie entre les bases de données. La bases de référence Greegenes
 
 4) Richesse specifique + permanova 
 
 Création de graphiques permettant d'observer la richesse specifique à chaque temperature et pour chaque base de données. 
 
 METTRE LES GRAPH 
+
+![](data/output/figures/sp_plot_15.png)
 
 Les graphiques montrent que, pour une même température, la diversité des espèces et des genres reste presque identique quelle que soit la base de données utilisée.
 En revanche, une variation selon les températures est visible : les trois bases de données indiquent une abondance plus élevée à 20 °C.
