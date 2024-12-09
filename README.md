@@ -76,8 +76,15 @@ Nous avons donc choisi par la suite de nous concentrer sur les genres etant donn
 
 #### 2.2 Concordance de l'ensemble des assignations de genre : Diagramme de Venn 
 
-Evaluation de la consistence des assignations faites au niveau du genre selon les différentes bases de données pour chacune des températures.
-Les genres attribué a chaque ASV par chacune des bases de données sont comparé pour mesurer les accords et désaccord des attributions taxonomiques. Le résultat de ces comparaisons est représenté sous la forme d'un diagramme de Venn pour chacune des températures. Cette analyse repose sur le fait que les attrbutions taxonomiques utilise la même typologie entre les bases de données. La bases de référence GreeGenes pouvant présenter une typologie différente (ajout d'un suffixe à la fin du genre) cette différence peut amplifier la différence d'assignation de cette base taxonomique aux deux autres.
+Evaluation de la consistence des assignations faites au niveau du genre selon les différentes bases de données pour chacune des températures. Cette section requiert l'installation du package VennDiagram depuis CRAN.
+
+Les bases de référence n'offrent pas une assignation pour tous les ASVs, mais l’assignation ou non d’une ASV à un taxon dépend de chaque base. Une forte occurence, dans notre échantillon, d'ASVs qui ne seraient assignés que par une base particulière pourrait privilégier l’utilisation de cette base pour l’étude du microbiome de l’échantillon. Nous énumérons donc les ASVs uniquement assignés par l'une des trois bases et mesurons leurs abondances relatives dans nos échantillons. Pour les trois températures, contrairement aux autres bases de référence, Greengenes semble permettre l’assignation d’ASVs dont la fréquence est relativement élevée, suggérant que cette base est plus apte à attribuer des ASVs bien représentés dans notre échantillon.
+
+![](img/ASVunique_15.png)
+
+Les genres attribué a chaque ASV par chacune des bases de données sont comparé pour mesurer les accords et désaccord des attributions taxonomiques. Le résultat de ces comparaisons est représenté sous la forme d'un diagramme de Venn pour chacune des températures. Cette analyse repose sur le fait que les attributions taxonomiques utilise la même typologie entre les bases de données. La bases de référence GreeGenes pouvant présenter une typologie différente (ajout d'un suffixe à la fin du genre) cette différence amplifie la différence d'assignation de cette base taxonomique par rapport aux deux autres. Les bases RDP et SILVA présentent quant à elles des assignations identiques au niveau du genre pour environ 2/3 des ASV assignés, pour chacune des températures.
+
+![](img/venn_diagram_15.png)
 
 Pour plus de détails, voir : [5.Concordance_assignation.ipynb](5.Concordance_assignation.ipynb)
 
