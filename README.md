@@ -44,13 +44,13 @@ Les analyses sont réalisées a partir d'un jeu de donné issu de la fusion entr
 
 Dans cette partie, nous avons déterminé  le fréquence à laquelle chaque base de référence à fait une assignation taxonomique jusqu'au rang du genre et de l'espèce. 
 
-![](img/fre_assign_gs.png)
+![](img/freq_assign_gs.png)
 
 Concernant la fréquence d'assignation au genre : 
 - Elle semble légèrement plus élevée pour GG2 que SILVA et RDP pour toutes les températures ; cet écart semble plus marqué pour 20°C et 25°C.
 - Elle semble être sensiblement la même pour toutes les températures avec une très faible diminution qui semble se dessiner. 
 
-![](img/fre_assign_sp.png)
+![](img/freq_assign_sp.png)
 Concernant la fréquence d'assignation à l'espèce : 
 - Elle est plus faible qu'au genre pour toutes les bases de données
 - La base de référence SILVA présente environ 2 fois moins d'assignations que RDP et GG2
