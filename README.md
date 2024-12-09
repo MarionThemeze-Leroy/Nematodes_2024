@@ -38,7 +38,7 @@ Pour ce faire, différentes analyses préliminaires, détaillées ci-après, ont
 
 ## II  - Analyses 
 
-Les analyses sont réalisées a partir d'un jeu de donné issu de la fusion entre la table de contingence des ASVs, les métadonnées de l'expérience et les assignations taxonomiques. Pour plus de détails, voir [Preparation_data.ipynb](2.Preparation_data.ipynb)
+Les analyses sont réalisées a partir d'un jeu de donné issu de la fusion entre la table de contingence des ASVs, les métadonnées de l'expérience et les assignations taxonomiques. Pour plus de détails, voir [2.Preparation_data.ipynb](2.Preparation_data.ipynb)
 
 ### 1) Différences de fréquence d'assignation selon la base de référence d'assignation taxonomique
 
