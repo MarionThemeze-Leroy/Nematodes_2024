@@ -79,7 +79,7 @@ Nous avons donc choisi par la suite de nous concentrer sur les genres etant donn
 Evaluation de la consistence des assignations faites au niveau du genre selon les différentes bases de données pour chacune des températures.
 Les genres attribué a chaque ASV par chacune des bases de données sont comparé pour mesurer les accords et désaccord des attributions taxonomiques. Le résultat de ces comparaisons est représenté sous la forme d'un diagramme de Venn pour chacune des températures. Cette analyse repose sur le fait que les attrbutions taxonomiques utilise la même typologie entre les bases de données. La bases de référence GreeGenes pouvant présenter une typologie différente (ajout d'un suffixe à la fin du genre) cette différence peut amplifier la différence d'assignation de cette base taxonomique aux deux autres.
 
-[5.Concordance_assignation.ipynb](5.Concordance_assignation.ipynb)
+Pour plus de détails, voir : [5.Concordance_assignation.ipynb](5.Concordance_assignation.ipynb)
 
 ### 3) Alpha diversité : Richesse de genres
 
