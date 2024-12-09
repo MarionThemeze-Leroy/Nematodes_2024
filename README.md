@@ -18,7 +18,7 @@ Du métabarcodage ADN a été réalisé afin d'identifier en simultanée la comp
 
 L'assignation taxonomique est réalisée sur R grâce à la fonction assignTaxonomy du package DADA2 en fournissant les séquences des ASVs, prélablement transformés en vecteurs de chaine de caractère, ainsi qu'une fichier fasta d'entrainement comprenant la taxonomie correspondant à chaque séquence. 
 
-Pour plus de détails, voir : [Preparation data.ipynb](2.Preparation data.ipynb)
+Pour plus de détails, voir : [1.Assignation.ipynb](1.Assignation.ipynb)
 
 ### Les bases de référence taxonomiques
 
@@ -38,7 +38,7 @@ Pour ce faire, différentes analyses préliminaires, détaillées ci-après, ont
 
 ## II  - Analyses 
 
-Les analyses sont réalisées a partir d'un jeu de donné issu de la fusion entre la table de contingence des ASVs, les métadonnées de l'expérience et les assignations taxonomiques. Pour plus de détails, voir [Preparation data.ipynb](2.Preparation data.ipynb)
+Les analyses sont réalisées a partir d'un jeu de donné issu de la fusion entre la table de contingence des ASVs, les métadonnées de l'expérience et les assignations taxonomiques. Pour plus de détails, voir [Preparation_data.ipynb](2.Preparation_data.ipynb)
 
 ### 1) Différences de fréquence d'assignation selon la base de référence d'assignation taxonomique
 
@@ -57,7 +57,7 @@ Concernant la fréquence d'assignation à l'espèce :
 - RDP est la base qui assigne plus fréquemment jusqu'à l'espèce
 - A part pour GG2, le nombre d'assignations au genre semble diminuer avec une élévation de température
 
-Pour plus de détails, voir : [3.Frequence assignation.ipynb](3.Frequence assignation.ipynb)
+Pour plus de détails, voir : [3.Frequence_assignation.ipynb](3.Frequence_assignation.ipynb)
 
 Après avoir déterminé la fréquence d'assignation, nous avons analysé à quel point les bases de références étaient concordantes pour les assignations faites. 
 
@@ -79,7 +79,7 @@ Nous avons donc choisi par la suite de nous concentrer sur les genres etant donn
 Evaluation de la consistence des assignations faites au niveau du genre selon les différentes bases de données pour chacune des températures.
 Les genres attribué a chaque ASV par chacune des bases de données sont comparé pour mesurer les accords et désaccord des attributions taxonomiques. Le résultat de ces comparaisons est représenté sous la forme d'un diagramme de Venn pour chacune des températures. Cette analyse repose sur le fait que les attrbutions taxonomiques utilise la même typologie entre les bases de données. La bases de référence GreeGenes pouvant présenter une typologie différente (ajout d'un suffixe à la fin du genre) cette différence peut amplifier la différence d'assignation de cette base taxonomique aux deux autres.
 
-[5.Concordance assignation.ipynb](5.Concordance assignation.ipynb)
+[5.Concordance_assignation.ipynb](5.Concordance_assignation.ipynb)
 
 ### 3) Alpha diversité : Richesse de genres
 
@@ -102,7 +102,7 @@ Une  PERMANOVA _Richesse de genre ~ Température * Base de référence_ utilisan
  
 Ces trois points sont réconfortants d'un point de vue méthodologique : il y a un effet de la température sur la diverité de genre et celui-ci peu être démontré peu importe la base de référence utilisée pour l'assignation taxonomique. Il est à noter que le modèle complet explique uniquement 8% de la variation totale (R² = 0.08). Ainsi, d'autres facteurs seraient à prendre en compte pour expliquer la diversité. 
 
-Pour plus de détails, voir : [6.Alpha diversite.ipynb](6.Alpha diversite.ipynb)
+Pour plus de détails, voir : [6.Alpha_diversite.ipynb](6.Alpha_diversite.ipynb)
 
 
 ## Conclusion et perspectives
